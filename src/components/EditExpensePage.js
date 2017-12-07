@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import ExpenseForm from './ExpenseForm';
 import { startEditExpense, startRemoveExpense } from '../actions/expenses';
 
@@ -18,6 +19,9 @@ export class EditExpensePage extends React.Component {
         <div className="page-header">
           <div className="content-container">
             <h1 className="page-header__title">Edit Expense</h1>
+            <div className="page-header__actions">
+              <Link className="button" to="/dashboard">Back</Link>
+            </div>
           </div>
         </div>
         <div className="content-container">

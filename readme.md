@@ -1,7 +1,4 @@
-# Git Commands
+# Expensify
 
-git init
-git status
-git add
-git commit
-git log
+Expenses app developed in React.
+Visit: https://enz-expensify.herokuapp.com to see it running.

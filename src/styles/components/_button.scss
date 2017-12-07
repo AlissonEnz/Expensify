@@ -8,8 +8,13 @@
   display: inline-block;
   text-decoration: none;
   line-height: 1;
+  border-radius: 2px;
 }
 
 .button--link {
   background: none;
+}
+
+.button--secondary {
+  background: #888;
 }
